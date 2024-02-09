@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Basic Form</title>
+</head>
+<body>
+    
+    <form name="FEEDBACK">
+        <div class="feedbackcontainer">
+            <div class="name">
+                <input type="text" name="username" placeholder="Enter Your name" required>
+            </div>
+            <div class="GENDER">
+                <div class="male">
+                    <label for="gender">MALE: </label>
+                    <input type="radio" name="gender" id="gender">
+                </div>
+                <div class="female">
+                    <label for="gender">FEMALE: </label>
+                    <input type="radio" name="gender" id="gender">
+                </div>
+            </div>
+            <div class="phone">
+                <input type="text" name="phonenumber" id="phone" placeholder="enter your phonenumber" style="margin: 20px 150px;padding: 10px;text-align: center;border-radius: 5px;border: 2px solid black;">
+            </div>
+            <div class="age">
+                <input type="number" name="age" id="age" placeholder="Enter your age" style="margin: 20px 150px;padding: 10px;text-align: center;border-radius: 5px;border: 2px solid black;">
+            </div>
+            <button style="margin: 30px 200px;border: 2px solid yellow;background-color: lightcoral;padding: 10px;border-radius: 6px;">S U B M I T</button>
+        </div>
+    </form>
+    <div id="new"></div>
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
